@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="weather">
+        <div class="left">
+            <div class="search">
+                <i class="fa fa-search icon-1"></i>
+                <input type="text" class="searchTerm" placeholder="Search places">
+             </div>
+            <div class="image">
+                <img src="images/cloudy.png">
+            </div>
+            <div class="temp">
+                <h1><span class="temperature">19</span> &#176C</h1>
+                <p>Monday, <span class="temp-time">16:00</span></p>
+            </div>
+            <hr>
+            <div class="left-bot">
+                <div class="atmos">
+                    <img class="icon" src="images/cloud.png">
+                    <p class="icon-text">Mostly Cloudy
+                    <p>
+                </div>
+                <div class="cloudy">
+                    <img class="icon" src="images/water-drops.png">
+                    <p class="icon-text">Rain - 30%
+                    <p>
+                </div>
+                <div class="place">
+                    <img  class="place-img"src="images/spain.png">
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <h3 class="head-text-1">Today</h3>
+                <h3 class="head-text-2">Week</h3>
+                <a class="btn-1" href="#">&#176C</a>
+                <a class="btn-2" href="#">&#176F</a>
+                <div class="dropdown" style="float:right;">
+                    <button class="dropbtn"> 
+                        <img class="dropbtn-image" src="images/man.png"><span class="btn-text">Alex
+                        Martinus</span>
+                        <i class="fa fa-angle-down drop"></i>
+                    </button>    
+                    <div class="dropdown-content">
+                        <a href="#">Profile</a>
+                        <a href="#">Settings</a>
+                        <a href="#">Sign out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="days">
+                <div class="mon">
+                    <p class="day">Mon</p>
+                    <img class="img" src="images/cloudy-2.png" >
+                    <p class="days-temp-1">20&#176  <span class="days-temp-2">6&#176</span></p>
+                </div>
+                <div class="tue">
+                    <p class="day">Tue</p>
+                    <img class="img" src="images/rainy.png" >
+                    <p class="days-temp-1">16&#176  <span class="days-temp-2">4&#176</span></p>
+                </div>
+                <div class="wed">
+                    <p class="day">Wed</p>
+                    <img class="img" src="images/sun.png" >
+                    <p class="days-temp-1">18&#176  <span class="days-temp-2">6&#176</span></p>
+                </div>
+                <div class="thu">
+                    <p class="day">Thu</p>
+                    <img class="img" src="images/cloudy-2.png" >
+                    <p class="days-temp-1">12&#176  <span class="days-temp-2">8&#176</span></p>
+                </div>
+                <div class="fri">
+                    <p class="day">Fri</p>
+                    <img class="img" src="images/sun1.png" >
+                    <p class="days-temp-1">16&#176  <span class="days-temp-2">4&#176</span></p>
+                </div>
+                <div class="sat">
+                    <p class="day">Sat</p>
+                    <img class="img" src="images/rainy.png" >
+                    <p class="days-temp-1">15&#176  <span class="days-temp-2">8&#176</span></p>
+                </div>
+                <div class="sun">
+                    <p class="day">Sun</p>
+                    <img class="img" src="images/sun1.png" >
+                    <p class="days-temp-1">12&#176  <span class="days-temp-2">6&#176</span></p>
+                </div>
+            </div>
+            <div class="highlight">
+                <h3 class="highlight-head">Today Highlight</h3>
+                <div class="uv-index">
+                    <p class="highlight-text">UV Index</p>
+                    <div class="gauge">
+                        <div class="gauge__body">
+                            <div class="gauge__fill"></div>
+                            <div class="gauge__cover"></div>
+                        </div>
+                    </div>
+                    <span class="uv">5 %</span>
+                    <span class="six">6</span>
+                    <span class="eight">8</span>
+                    <span class="ten">10</span>
+                    <span class="twelve">12</span>
+                </div>
+                <div class="wind-status">
+                    <p class="highlight-text">Wind Status</p>
+                    <p><span class="strong"> <strong>8.70</strong></span> <span class="text-1">km/h</span></p>
+                    <img class="location"src="images/location.png">
+                    <p class="bottom">Barcelona, Spain</p>
+                </div>
+                <div class="sunrise-sunset">
+                    <p class="highlight-text">Sunrise and Sunset</p>
+                    <div class="sunrise">
+                        <img class="sun-img"src="images/sunrise.png">
+                        <p class="time">6:30 AM</p>
+                        <p class="min">-2m 46s</p>
+                    </div>
+                    <div class="sunset">
+                        <img class="sun-img"src="images/sunset.png">
+                        <p class="time">5:45 PM</p>
+                        <p class="min">-3m 26s</p>
+                    </div>
+                </div>
+                <div class="humidity">
+                    <p class="highlight-text">Humidity</p>
+                    <p><span class="strong"> <strong>12</strong></span> <span class="text-1">%</span></p>
+                    <p class="bottom">Status: <span class="bot-text-1">Good Quality</span></p>
+                    <input class="range-1" type="range" min="0" max="100" step="0.1" value="12">
+                </div>
+                <div class="visibilty">
+                    <p class="highlight-text">Visibilty</p>
+                    <p><span class="strong"> <strong>8.4</strong></span> <span class="text-1">km/h</span></p>
+                    <p class="bottom">Status: <span class="bot-text-2">Average</span></p>
+                    <input class="range-2" type="range" min="0" max="16.8" step="0.1" value="8.4">
+                </div>
+                <div class="air-q">
+                    <p class="highlight-text">Air Quality</p>
+                    <p><span class="strong"> <strong>120</strong></span></p>
+                    <p class="bottom">Status: <span class="bot-text-3">Bad Quality</span></p>
+                    <input class="range-3" type="range" min="0" max="130" step="0.1" value="120">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
