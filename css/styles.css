@@ -10,6 +10,11 @@
   
   hr {
     margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-style: solid none none none;
+    border-width: 2px;
+    color: #fafafa;
   }
   
   .left {
@@ -75,7 +80,7 @@
   }
   
   .atmos {
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
   }
   
   .cloudy {
